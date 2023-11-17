@@ -1,0 +1,2698 @@
+{
+	"info": {
+		"_postman_id": "8cd9fd16-82f3-4ad7-9467-ff85ef96a837",
+		"name": "Generated from HAR",
+		"description": "HAR To Postman Generated Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23795908"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/api/paths/delete",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/paths/delete",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"paths",
+						"delete"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/paths/delete",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"paths",
+								"delete"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "25"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 22:51:25 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "text/plain;charset=UTF-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/paths/register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/paths/register",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"paths",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "created / 201",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/paths/register",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"paths",
+								"register"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 22:47:57 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n \"id\": 515,\n \"targetId\": 177,\n \"sourceId\": 176,\n \"length\": 27,\n \"type\": \"\"\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/paths/targetId=122",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/paths/targetId=122",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"paths",
+						"targetId=122"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/paths/targetId=122",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"paths",
+								"targetId=122"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 22:36:55 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "[\n {\n  \"id\": 267,\n  \"targetId\": 122,\n  \"sourceId\": 128,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 282,\n  \"targetId\": 122,\n  \"sourceId\": 123,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 263,\n  \"targetId\": 122,\n  \"sourceId\": 116,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 2,\n  \"targetId\": 122,\n  \"sourceId\": 1,\n  \"length\": 0,\n  \"type\": \"Wort 1\"\n }\n]"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/paths/sourceId=1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/paths/sourceId=1",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"paths",
+						"sourceId=1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/paths/sourceId=1",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"paths",
+								"sourceId=1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 22:35:55 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "[\n {\n  \"id\": 2,\n  \"targetId\": 122,\n  \"sourceId\": 1,\n  \"length\": 0,\n  \"type\": \"Wort 1\"\n },\n {\n  \"id\": 1,\n  \"targetId\": 62,\n  \"sourceId\": 1,\n  \"length\": 0,\n  \"type\": \"Wort 1\"\n }\n]"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/paths/id=284",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/paths/id=284",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"paths",
+						"id=284"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/paths/id=284",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"paths",
+								"id=284"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 22:30:16 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n \"id\": 284,\n \"targetId\": 124,\n \"sourceId\": 123,\n \"length\": 0,\n \"type\": \"wort 1\"\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/paths/",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/paths/",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"paths",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/paths/",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"paths",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 22:29:36 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "[\n {\n  \"id\": 0,\n  \"targetId\": 1,\n  \"sourceId\": 0,\n  \"length\": 0,\n  \"type\": \"Wort 1\"\n },\n {\n  \"id\": 1,\n  \"targetId\": 62,\n  \"sourceId\": 1,\n  \"length\": 0,\n  \"type\": \"Wort 1\"\n },\n {\n  \"id\": 2,\n  \"targetId\": 122,\n  \"sourceId\": 1,\n  \"length\": 0,\n  \"type\": \"Wort 1\"\n },\n {\n  \"id\": 3,\n  \"targetId\": 21,\n  \"sourceId\": 16,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 4,\n  \"targetId\": 100,\n  \"sourceId\": 17,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 5,\n  \"targetId\": 23,\n  \"sourceId\": 18,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 6,\n  \"targetId\": 104,\n  \"sourceId\": 19,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 7,\n  \"targetId\": 2,\n  \"sourceId\": 20,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 8,\n  \"targetId\": 2,\n  \"sourceId\": 21,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 9,\n  \"targetId\": 160,\n  \"sourceId\": 21,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 10,\n  \"targetId\": 3,\n  \"sourceId\": 22,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 11,\n  \"targetId\": 3,\n  \"sourceId\": 23,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 12,\n  \"targetId\": 164,\n  \"sourceId\": 23,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 13,\n  \"targetId\": 21,\n  \"sourceId\": 2,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 14,\n  \"targetId\": 17,\n  \"sourceId\": 2,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 15,\n  \"targetId\": 23,\n  \"sourceId\": 3,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 16,\n  \"targetId\": 19,\n  \"sourceId\": 3,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 17,\n  \"targetId\": 28,\n  \"sourceId\": 56,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 18,\n  \"targetId\": 57,\n  \"sourceId\": 56,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 19,\n  \"targetId\": 62,\n  \"sourceId\": 56,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 20,\n  \"targetId\": 56,\n  \"sourceId\": 62,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 21,\n  \"targetId\": 63,\n  \"sourceId\": 62,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 22,\n  \"targetId\": 68,\n  \"sourceId\": 62,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 23,\n  \"targetId\": 62,\n  \"sourceId\": 68,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 24,\n  \"targetId\": 69,\n  \"sourceId\": 68,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 25,\n  \"targetId\": 74,\n  \"sourceId\": 68,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 26,\n  \"targetId\": 68,\n  \"sourceId\": 74,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 27,\n  \"targetId\": 75,\n  \"sourceId\": 74,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 28,\n  \"targetId\": 80,\n  \"sourceId\": 74,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 29,\n  \"targetId\": 74,\n  \"sourceId\": 80,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 30,\n  \"targetId\": 81,\n  \"sourceId\": 80,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 31,\n  \"targetId\": 86,\n  \"sourceId\": 80,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 32,\n  \"targetId\": 80,\n  \"sourceId\": 86,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 33,\n  \"targetId\": 87,\n  \"sourceId\": 86,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 34,\n  \"targetId\": 56,\n  \"sourceId\": 57,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 35,\n  \"targetId\": 24,\n  \"sourceId\": 57,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 36,\n  \"targetId\": 58,\n  \"sourceId\": 57,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 37,\n  \"targetId\": 63,\n  \"sourceId\": 57,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 38,\n  \"targetId\": 62,\n  \"sourceId\": 63,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 39,\n  \"targetId\": 57,\n  \"sourceId\": 63,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 40,\n  \"targetId\": 64,\n  \"sourceId\": 63,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 41,\n  \"targetId\": 69,\n  \"sourceId\": 63,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 42,\n  \"targetId\": 68,\n  \"sourceId\": 69,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 43,\n  \"targetId\": 63,\n  \"sourceId\": 69,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 44,\n  \"targetId\": 70,\n  \"sourceId\": 69,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 45,\n  \"targetId\": 75,\n  \"sourceId\": 69,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 46,\n  \"targetId\": 74,\n  \"sourceId\": 75,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 47,\n  \"targetId\": 69,\n  \"sourceId\": 75,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 48,\n  \"targetId\": 76,\n  \"sourceId\": 75,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 49,\n  \"targetId\": 81,\n  \"sourceId\": 75,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 50,\n  \"targetId\": 80,\n  \"sourceId\": 81,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 51,\n  \"targetId\": 75,\n  \"sourceId\": 81,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 52,\n  \"targetId\": 82,\n  \"sourceId\": 81,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 53,\n  \"targetId\": 87,\n  \"sourceId\": 81,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 54,\n  \"targetId\": 86,\n  \"sourceId\": 87,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 55,\n  \"targetId\": 81,\n  \"sourceId\": 87,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 56,\n  \"targetId\": 88,\n  \"sourceId\": 87,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 57,\n  \"targetId\": 57,\n  \"sourceId\": 58,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 58,\n  \"targetId\": 29,\n  \"sourceId\": 58,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 59,\n  \"targetId\": 59,\n  \"sourceId\": 58,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 60,\n  \"targetId\": 64,\n  \"sourceId\": 58,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 61,\n  \"targetId\": 63,\n  \"sourceId\": 64,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 62,\n  \"targetId\": 58,\n  \"sourceId\": 64,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 63,\n  \"targetId\": 65,\n  \"sourceId\": 64,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 64,\n  \"targetId\": 70,\n  \"sourceId\": 64,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 65,\n  \"targetId\": 69,\n  \"sourceId\": 70,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 66,\n  \"targetId\": 64,\n  \"sourceId\": 70,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 67,\n  \"targetId\": 71,\n  \"sourceId\": 70,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 68,\n  \"targetId\": 76,\n  \"sourceId\": 70,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 69,\n  \"targetId\": 75,\n  \"sourceId\": 76,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 70,\n  \"targetId\": 70,\n  \"sourceId\": 76,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 71,\n  \"targetId\": 77,\n  \"sourceId\": 76,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 72,\n  \"targetId\": 82,\n  \"sourceId\": 76,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 73,\n  \"targetId\": 81,\n  \"sourceId\": 82,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 74,\n  \"targetId\": 76,\n  \"sourceId\": 82,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 75,\n  \"targetId\": 83,\n  \"sourceId\": 82,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 76,\n  \"targetId\": 88,\n  \"sourceId\": 82,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 77,\n  \"targetId\": 87,\n  \"sourceId\": 88,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 78,\n  \"targetId\": 82,\n  \"sourceId\": 88,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 79,\n  \"targetId\": 89,\n  \"sourceId\": 88,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 80,\n  \"targetId\": 58,\n  \"sourceId\": 59,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 81,\n  \"targetId\": 25,\n  \"sourceId\": 59,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 82,\n  \"targetId\": 60,\n  \"sourceId\": 59,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 83,\n  \"targetId\": 65,\n  \"sourceId\": 59,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 84,\n  \"targetId\": 64,\n  \"sourceId\": 65,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 85,\n  \"targetId\": 59,\n  \"sourceId\": 65,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 86,\n  \"targetId\": 66,\n  \"sourceId\": 65,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 87,\n  \"targetId\": 71,\n  \"sourceId\": 65,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 88,\n  \"targetId\": 70,\n  \"sourceId\": 71,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 89,\n  \"targetId\": 65,\n  \"sourceId\": 71,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 90,\n  \"targetId\": 72,\n  \"sourceId\": 71,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 91,\n  \"targetId\": 77,\n  \"sourceId\": 71,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 92,\n  \"targetId\": 76,\n  \"sourceId\": 77,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 93,\n  \"targetId\": 71,\n  \"sourceId\": 77,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 94,\n  \"targetId\": 78,\n  \"sourceId\": 77,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 95,\n  \"targetId\": 83,\n  \"sourceId\": 77,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 96,\n  \"targetId\": 82,\n  \"sourceId\": 83,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 97,\n  \"targetId\": 77,\n  \"sourceId\": 83,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 98,\n  \"targetId\": 84,\n  \"sourceId\": 83,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 99,\n  \"targetId\": 89,\n  \"sourceId\": 83,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 100,\n  \"targetId\": 88,\n  \"sourceId\": 89,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 101,\n  \"targetId\": 83,\n  \"sourceId\": 89,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 102,\n  \"targetId\": 90,\n  \"sourceId\": 89,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 103,\n  \"targetId\": 59,\n  \"sourceId\": 60,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 104,\n  \"targetId\": 4,\n  \"sourceId\": 60,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 105,\n  \"targetId\": 61,\n  \"sourceId\": 60,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 106,\n  \"targetId\": 66,\n  \"sourceId\": 60,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 107,\n  \"targetId\": 65,\n  \"sourceId\": 66,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 108,\n  \"targetId\": 60,\n  \"sourceId\": 66,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 109,\n  \"targetId\": 67,\n  \"sourceId\": 66,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 110,\n  \"targetId\": 72,\n  \"sourceId\": 66,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 111,\n  \"targetId\": 71,\n  \"sourceId\": 72,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 112,\n  \"targetId\": 66,\n  \"sourceId\": 72,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 113,\n  \"targetId\": 73,\n  \"sourceId\": 72,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 114,\n  \"targetId\": 78,\n  \"sourceId\": 72,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 115,\n  \"targetId\": 77,\n  \"sourceId\": 78,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 116,\n  \"targetId\": 72,\n  \"sourceId\": 78,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 117,\n  \"targetId\": 79,\n  \"sourceId\": 78,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 118,\n  \"targetId\": 84,\n  \"sourceId\": 78,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 119,\n  \"targetId\": 83,\n  \"sourceId\": 84,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 120,\n  \"targetId\": 78,\n  \"sourceId\": 84,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 121,\n  \"targetId\": 85,\n  \"sourceId\": 84,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 122,\n  \"targetId\": 90,\n  \"sourceId\": 84,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 123,\n  \"targetId\": 89,\n  \"sourceId\": 90,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 124,\n  \"targetId\": 84,\n  \"sourceId\": 90,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 125,\n  \"targetId\": 91,\n  \"sourceId\": 90,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 126,\n  \"targetId\": 60,\n  \"sourceId\": 61,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 127,\n  \"targetId\": 5,\n  \"sourceId\": 61,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 128,\n  \"targetId\": 92,\n  \"sourceId\": 61,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 129,\n  \"targetId\": 67,\n  \"sourceId\": 61,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 130,\n  \"targetId\": 66,\n  \"sourceId\": 67,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 131,\n  \"targetId\": 61,\n  \"sourceId\": 67,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 132,\n  \"targetId\": 96,\n  \"sourceId\": 67,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 133,\n  \"targetId\": 73,\n  \"sourceId\": 67,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 134,\n  \"targetId\": 72,\n  \"sourceId\": 73,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 135,\n  \"targetId\": 67,\n  \"sourceId\": 73,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 136,\n  \"targetId\": 16,\n  \"sourceId\": 73,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 137,\n  \"targetId\": 79,\n  \"sourceId\": 73,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 138,\n  \"targetId\": 78,\n  \"sourceId\": 79,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 139,\n  \"targetId\": 73,\n  \"sourceId\": 79,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 140,\n  \"targetId\": 18,\n  \"sourceId\": 79,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 141,\n  \"targetId\": 85,\n  \"sourceId\": 79,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 142,\n  \"targetId\": 84,\n  \"sourceId\": 85,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 143,\n  \"targetId\": 79,\n  \"sourceId\": 85,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 144,\n  \"targetId\": 108,\n  \"sourceId\": 85,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 145,\n  \"targetId\": 91,\n  \"sourceId\": 85,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 146,\n  \"targetId\": 90,\n  \"sourceId\": 91,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 147,\n  \"targetId\": 85,\n  \"sourceId\": 91,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 148,\n  \"targetId\": 112,\n  \"sourceId\": 91,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 149,\n  \"targetId\": 26,\n  \"sourceId\": 4,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 150,\n  \"targetId\": 30,\n  \"sourceId\": 4,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 151,\n  \"targetId\": 27,\n  \"sourceId\": 5,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 152,\n  \"targetId\": 31,\n  \"sourceId\": 5,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 153,\n  \"targetId\": 57,\n  \"sourceId\": 24,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 154,\n  \"targetId\": 59,\n  \"sourceId\": 25,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 155,\n  \"targetId\": 4,\n  \"sourceId\": 26,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 156,\n  \"targetId\": 5,\n  \"sourceId\": 27,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 157,\n  \"targetId\": 56,\n  \"sourceId\": 28,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 158,\n  \"targetId\": 58,\n  \"sourceId\": 29,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 159,\n  \"targetId\": 4,\n  \"sourceId\": 30,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 160,\n  \"targetId\": 5,\n  \"sourceId\": 31,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 161,\n  \"targetId\": 61,\n  \"sourceId\": 92,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 162,\n  \"targetId\": 6,\n  \"sourceId\": 92,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 163,\n  \"targetId\": 93,\n  \"sourceId\": 92,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 164,\n  \"targetId\": 96,\n  \"sourceId\": 92,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 165,\n  \"targetId\": 67,\n  \"sourceId\": 96,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 166,\n  \"targetId\": 92,\n  \"sourceId\": 96,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 167,\n  \"targetId\": 97,\n  \"sourceId\": 96,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 168,\n  \"targetId\": 100,\n  \"sourceId\": 96,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 169,\n  \"targetId\": 73,\n  \"sourceId\": 100,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 170,\n  \"targetId\": 96,\n  \"sourceId\": 100,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 171,\n  \"targetId\": 101,\n  \"sourceId\": 100,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 172,\n  \"targetId\": 104,\n  \"sourceId\": 100,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 173,\n  \"targetId\": 79,\n  \"sourceId\": 104,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 174,\n  \"targetId\": 100,\n  \"sourceId\": 104,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 175,\n  \"targetId\": 105,\n  \"sourceId\": 104,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 176,\n  \"targetId\": 108,\n  \"sourceId\": 104,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 177,\n  \"targetId\": 85,\n  \"sourceId\": 108,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 178,\n  \"targetId\": 104,\n  \"sourceId\": 108,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 179,\n  \"targetId\": 109,\n  \"sourceId\": 108,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 180,\n  \"targetId\": 112,\n  \"sourceId\": 108,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 181,\n  \"targetId\": 91,\n  \"sourceId\": 112,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 182,\n  \"targetId\": 108,\n  \"sourceId\": 112,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 183,\n  \"targetId\": 113,\n  \"sourceId\": 112,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 184,\n  \"targetId\": 92,\n  \"sourceId\": 93,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 185,\n  \"targetId\": 7,\n  \"sourceId\": 93,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 186,\n  \"targetId\": 94,\n  \"sourceId\": 93,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 187,\n  \"targetId\": 97,\n  \"sourceId\": 93,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 188,\n  \"targetId\": 96,\n  \"sourceId\": 97,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 189,\n  \"targetId\": 93,\n  \"sourceId\": 97,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 190,\n  \"targetId\": 98,\n  \"sourceId\": 97,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 191,\n  \"targetId\": 101,\n  \"sourceId\": 97,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 192,\n  \"targetId\": 108,\n  \"sourceId\": 109,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 193,\n  \"targetId\": 105,\n  \"sourceId\": 109,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 194,\n  \"targetId\": 110,\n  \"sourceId\": 109,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 195,\n  \"targetId\": 113,\n  \"sourceId\": 109,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 196,\n  \"targetId\": 112,\n  \"sourceId\": 113,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 197,\n  \"targetId\": 109,\n  \"sourceId\": 113,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 198,\n  \"targetId\": 114,\n  \"sourceId\": 113,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 199,\n  \"targetId\": 93,\n  \"sourceId\": 94,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 200,\n  \"targetId\": 8,\n  \"sourceId\": 94,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 201,\n  \"targetId\": 95,\n  \"sourceId\": 94,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 202,\n  \"targetId\": 98,\n  \"sourceId\": 94,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 203,\n  \"targetId\": 97,\n  \"sourceId\": 98,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 204,\n  \"targetId\": 94,\n  \"sourceId\": 98,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 205,\n  \"targetId\": 99,\n  \"sourceId\": 98,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 206,\n  \"targetId\": 102,\n  \"sourceId\": 98,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 207,\n  \"targetId\": 101,\n  \"sourceId\": 102,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 208,\n  \"targetId\": 98,\n  \"sourceId\": 102,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 209,\n  \"targetId\": 103,\n  \"sourceId\": 102,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 210,\n  \"targetId\": 106,\n  \"sourceId\": 102,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 211,\n  \"targetId\": 105,\n  \"sourceId\": 106,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 212,\n  \"targetId\": 102,\n  \"sourceId\": 106,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 213,\n  \"targetId\": 107,\n  \"sourceId\": 106,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 214,\n  \"targetId\": 110,\n  \"sourceId\": 106,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 215,\n  \"targetId\": 109,\n  \"sourceId\": 110,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 216,\n  \"targetId\": 106,\n  \"sourceId\": 110,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 217,\n  \"targetId\": 111,\n  \"sourceId\": 110,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 218,\n  \"targetId\": 114,\n  \"sourceId\": 110,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 219,\n  \"targetId\": 113,\n  \"sourceId\": 114,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 220,\n  \"targetId\": 110,\n  \"sourceId\": 114,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 221,\n  \"targetId\": 115,\n  \"sourceId\": 114,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 222,\n  \"targetId\": 94,\n  \"sourceId\": 95,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 223,\n  \"targetId\": 9,\n  \"sourceId\": 95,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 224,\n  \"targetId\": 155,\n  \"sourceId\": 95,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 225,\n  \"targetId\": 99,\n  \"sourceId\": 95,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 226,\n  \"targetId\": 98,\n  \"sourceId\": 99,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 227,\n  \"targetId\": 95,\n  \"sourceId\": 99,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 228,\n  \"targetId\": 159,\n  \"sourceId\": 99,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 229,\n  \"targetId\": 103,\n  \"sourceId\": 99,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 230,\n  \"targetId\": 102,\n  \"sourceId\": 103,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 231,\n  \"targetId\": 99,\n  \"sourceId\": 103,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 232,\n  \"targetId\": 163,\n  \"sourceId\": 103,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 233,\n  \"targetId\": 107,\n  \"sourceId\": 103,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 234,\n  \"targetId\": 106,\n  \"sourceId\": 107,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 235,\n  \"targetId\": 103,\n  \"sourceId\": 107,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 236,\n  \"targetId\": 167,\n  \"sourceId\": 107,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 237,\n  \"targetId\": 111,\n  \"sourceId\": 107,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 238,\n  \"targetId\": 110,\n  \"sourceId\": 111,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 239,\n  \"targetId\": 107,\n  \"sourceId\": 111,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 240,\n  \"targetId\": 171,\n  \"sourceId\": 111,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 241,\n  \"targetId\": 115,\n  \"sourceId\": 111,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 242,\n  \"targetId\": 114,\n  \"sourceId\": 115,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 243,\n  \"targetId\": 111,\n  \"sourceId\": 115,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 244,\n  \"targetId\": 175,\n  \"sourceId\": 115,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 245,\n  \"targetId\": 32,\n  \"sourceId\": 6,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 246,\n  \"targetId\": 36,\n  \"sourceId\": 6,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 247,\n  \"targetId\": 33,\n  \"sourceId\": 7,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 248,\n  \"targetId\": 37,\n  \"sourceId\": 7,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 249,\n  \"targetId\": 34,\n  \"sourceId\": 8,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 250,\n  \"targetId\": 38,\n  \"sourceId\": 8,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 251,\n  \"targetId\": 35,\n  \"sourceId\": 9,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 252,\n  \"targetId\": 39,\n  \"sourceId\": 9,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 253,\n  \"targetId\": 6,\n  \"sourceId\": 32,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 254,\n  \"targetId\": 7,\n  \"sourceId\": 33,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 255,\n  \"targetId\": 8,\n  \"sourceId\": 34,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 256,\n  \"targetId\": 9,\n  \"sourceId\": 35,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 257,\n  \"targetId\": 6,\n  \"sourceId\": 36,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 258,\n  \"targetId\": 7,\n  \"sourceId\": 37,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 259,\n  \"targetId\": 8,\n  \"sourceId\": 38,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 260,\n  \"targetId\": 9,\n  \"sourceId\": 39,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 261,\n  \"targetId\": 44,\n  \"sourceId\": 116,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 262,\n  \"targetId\": 117,\n  \"sourceId\": 116,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 263,\n  \"targetId\": 122,\n  \"sourceId\": 116,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 264,\n  \"targetId\": 116,\n  \"sourceId\": 122,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 265,\n  \"targetId\": 123,\n  \"sourceId\": 122,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 266,\n  \"targetId\": 128,\n  \"sourceId\": 122,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 267,\n  \"targetId\": 122,\n  \"sourceId\": 128,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 268,\n  \"targetId\": 129,\n  \"sourceId\": 128,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 269,\n  \"targetId\": 134,\n  \"sourceId\": 128,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 270,\n  \"targetId\": 128,\n  \"sourceId\": 134,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 271,\n  \"targetId\": 135,\n  \"sourceId\": 134,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 272,\n  \"targetId\": 140,\n  \"sourceId\": 134,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 273,\n  \"targetId\": 134,\n  \"sourceId\": 140,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 274,\n  \"targetId\": 141,\n  \"sourceId\": 140,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 275,\n  \"targetId\": 146,\n  \"sourceId\": 140,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 276,\n  \"targetId\": 140,\n  \"sourceId\": 146,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 277,\n  \"targetId\": 147,\n  \"sourceId\": 146,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 278,\n  \"targetId\": 116,\n  \"sourceId\": 117,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 279,\n  \"targetId\": 40,\n  \"sourceId\": 117,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 280,\n  \"targetId\": 118,\n  \"sourceId\": 117,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 281,\n  \"targetId\": 123,\n  \"sourceId\": 117,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 282,\n  \"targetId\": 122,\n  \"sourceId\": 123,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 283,\n  \"targetId\": 117,\n  \"sourceId\": 123,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 284,\n  \"targetId\": 124,\n  \"sourceId\": 123,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 285,\n  \"targetId\": 129,\n  \"sourceId\": 123,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 286,\n  \"targetId\": 128,\n  \"sourceId\": 129,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 287,\n  \"targetId\": 123,\n  \"sourceId\": 129,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 288,\n  \"targetId\": 130,\n  \"sourceId\": 129,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 289,\n  \"targetId\": 135,\n  \"sourceId\": 129,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 290,\n  \"targetId\": 134,\n  \"sourceId\": 135,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 291,\n  \"targetId\": 129,\n  \"sourceId\": 135,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 292,\n  \"targetId\": 136,\n  \"sourceId\": 135,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 293,\n  \"targetId\": 141,\n  \"sourceId\": 135,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 294,\n  \"targetId\": 140,\n  \"sourceId\": 141,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 295,\n  \"targetId\": 135,\n  \"sourceId\": 141,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 296,\n  \"targetId\": 142,\n  \"sourceId\": 141,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 297,\n  \"targetId\": 147,\n  \"sourceId\": 141,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 298,\n  \"targetId\": 146,\n  \"sourceId\": 147,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 299,\n  \"targetId\": 141,\n  \"sourceId\": 147,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 300,\n  \"targetId\": 148,\n  \"sourceId\": 147,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 301,\n  \"targetId\": 117,\n  \"sourceId\": 118,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 302,\n  \"targetId\": 45,\n  \"sourceId\": 118,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 303,\n  \"targetId\": 119,\n  \"sourceId\": 118,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 304,\n  \"targetId\": 124,\n  \"sourceId\": 118,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 305,\n  \"targetId\": 123,\n  \"sourceId\": 124,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 306,\n  \"targetId\": 118,\n  \"sourceId\": 124,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 307,\n  \"targetId\": 125,\n  \"sourceId\": 124,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 308,\n  \"targetId\": 130,\n  \"sourceId\": 124,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 309,\n  \"targetId\": 129,\n  \"sourceId\": 130,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 310,\n  \"targetId\": 124,\n  \"sourceId\": 130,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 311,\n  \"targetId\": 131,\n  \"sourceId\": 130,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 312,\n  \"targetId\": 136,\n  \"sourceId\": 130,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 313,\n  \"targetId\": 135,\n  \"sourceId\": 136,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 314,\n  \"targetId\": 130,\n  \"sourceId\": 136,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 315,\n  \"targetId\": 137,\n  \"sourceId\": 136,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 316,\n  \"targetId\": 142,\n  \"sourceId\": 136,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 317,\n  \"targetId\": 141,\n  \"sourceId\": 142,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 318,\n  \"targetId\": 136,\n  \"sourceId\": 142,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 319,\n  \"targetId\": 148,\n  \"sourceId\": 142,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 320,\n  \"targetId\": 143,\n  \"sourceId\": 142,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 321,\n  \"targetId\": 147,\n  \"sourceId\": 148,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 322,\n  \"targetId\": 142,\n  \"sourceId\": 148,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 323,\n  \"targetId\": 149,\n  \"sourceId\": 148,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 324,\n  \"targetId\": 118,\n  \"sourceId\": 119,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 325,\n  \"targetId\": 41,\n  \"sourceId\": 119,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 326,\n  \"targetId\": 120,\n  \"sourceId\": 119,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 327,\n  \"targetId\": 125,\n  \"sourceId\": 119,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 328,\n  \"targetId\": 124,\n  \"sourceId\": 125,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 329,\n  \"targetId\": 119,\n  \"sourceId\": 125,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 330,\n  \"targetId\": 126,\n  \"sourceId\": 125,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 331,\n  \"targetId\": 131,\n  \"sourceId\": 125,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 332,\n  \"targetId\": 130,\n  \"sourceId\": 131,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 333,\n  \"targetId\": 125,\n  \"sourceId\": 131,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 334,\n  \"targetId\": 132,\n  \"sourceId\": 131,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 335,\n  \"targetId\": 137,\n  \"sourceId\": 131,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 336,\n  \"targetId\": 136,\n  \"sourceId\": 137,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 337,\n  \"targetId\": 131,\n  \"sourceId\": 137,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 338,\n  \"targetId\": 138,\n  \"sourceId\": 137,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 339,\n  \"targetId\": 143,\n  \"sourceId\": 137,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 340,\n  \"targetId\": 142,\n  \"sourceId\": 143,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 341,\n  \"targetId\": 137,\n  \"sourceId\": 143,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 342,\n  \"targetId\": 144,\n  \"sourceId\": 143,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 343,\n  \"targetId\": 149,\n  \"sourceId\": 143,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 344,\n  \"targetId\": 148,\n  \"sourceId\": 149,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 345,\n  \"targetId\": 143,\n  \"sourceId\": 149,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 346,\n  \"targetId\": 150,\n  \"sourceId\": 149,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 347,\n  \"targetId\": 119,\n  \"sourceId\": 120,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 348,\n  \"targetId\": 10,\n  \"sourceId\": 120,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 349,\n  \"targetId\": 121,\n  \"sourceId\": 120,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 350,\n  \"targetId\": 126,\n  \"sourceId\": 120,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 351,\n  \"targetId\": 125,\n  \"sourceId\": 126,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 352,\n  \"targetId\": 120,\n  \"sourceId\": 126,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 353,\n  \"targetId\": 127,\n  \"sourceId\": 126,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 354,\n  \"targetId\": 132,\n  \"sourceId\": 126,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 355,\n  \"targetId\": 131,\n  \"sourceId\": 132,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 356,\n  \"targetId\": 126,\n  \"sourceId\": 132,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 357,\n  \"targetId\": 133,\n  \"sourceId\": 132,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 358,\n  \"targetId\": 138,\n  \"sourceId\": 132,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 359,\n  \"targetId\": 137,\n  \"sourceId\": 138,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 360,\n  \"targetId\": 132,\n  \"sourceId\": 138,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 361,\n  \"targetId\": 139,\n  \"sourceId\": 138,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 362,\n  \"targetId\": 144,\n  \"sourceId\": 138,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 363,\n  \"targetId\": 143,\n  \"sourceId\": 144,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 364,\n  \"targetId\": 138,\n  \"sourceId\": 144,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 365,\n  \"targetId\": 145,\n  \"sourceId\": 144,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 366,\n  \"targetId\": 150,\n  \"sourceId\": 144,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 367,\n  \"targetId\": 149,\n  \"sourceId\": 150,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 368,\n  \"targetId\": 144,\n  \"sourceId\": 150,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 369,\n  \"targetId\": 151,\n  \"sourceId\": 150,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 370,\n  \"targetId\": 120,\n  \"sourceId\": 121,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 371,\n  \"targetId\": 11,\n  \"sourceId\": 121,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 372,\n  \"targetId\": 152,\n  \"sourceId\": 121,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 373,\n  \"targetId\": 127,\n  \"sourceId\": 121,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 374,\n  \"targetId\": 126,\n  \"sourceId\": 127,\n  \"length\": 0,\n  \"type\": \"wort 1 - future\"\n },\n {\n  \"id\": 375,\n  \"targetId\": 121,\n  \"sourceId\": 127,\n  \"length\": 0,\n  \"type\": \"wort 1 - future\"\n },\n {\n  \"id\": 376,\n  \"targetId\": 156,\n  \"sourceId\": 127,\n  \"length\": 0,\n  \"type\": \"wort 1 - future\"\n },\n {\n  \"id\": 377,\n  \"targetId\": 133,\n  \"sourceId\": 127,\n  \"length\": 0,\n  \"type\": \"wort 1 - future\"\n },\n {\n  \"id\": 378,\n  \"targetId\": 132,\n  \"sourceId\": 133,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 379,\n  \"targetId\": 127,\n  \"sourceId\": 133,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 380,\n  \"targetId\": 20,\n  \"sourceId\": 133,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 381,\n  \"targetId\": 139,\n  \"sourceId\": 133,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 382,\n  \"targetId\": 138,\n  \"sourceId\": 139,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 383,\n  \"targetId\": 133,\n  \"sourceId\": 139,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 384,\n  \"targetId\": 22,\n  \"sourceId\": 139,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 385,\n  \"targetId\": 145,\n  \"sourceId\": 139,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 386,\n  \"targetId\": 144,\n  \"sourceId\": 145,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 387,\n  \"targetId\": 139,\n  \"sourceId\": 145,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 388,\n  \"targetId\": 168,\n  \"sourceId\": 145,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 389,\n  \"targetId\": 151,\n  \"sourceId\": 145,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 390,\n  \"targetId\": 150,\n  \"sourceId\": 151,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 391,\n  \"targetId\": 145,\n  \"sourceId\": 151,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 392,\n  \"targetId\": 172,\n  \"sourceId\": 151,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 393,\n  \"targetId\": 42,\n  \"sourceId\": 10,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 394,\n  \"targetId\": 46,\n  \"sourceId\": 10,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 395,\n  \"targetId\": 43,\n  \"sourceId\": 11,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 396,\n  \"targetId\": 47,\n  \"sourceId\": 11,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 397,\n  \"targetId\": 117,\n  \"sourceId\": 40,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 398,\n  \"targetId\": 119,\n  \"sourceId\": 41,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 399,\n  \"targetId\": 10,\n  \"sourceId\": 42,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 400,\n  \"targetId\": 11,\n  \"sourceId\": 43,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 401,\n  \"targetId\": 116,\n  \"sourceId\": 44,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 402,\n  \"targetId\": 118,\n  \"sourceId\": 45,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 403,\n  \"targetId\": 10,\n  \"sourceId\": 46,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 404,\n  \"targetId\": 11,\n  \"sourceId\": 47,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 405,\n  \"targetId\": 61,\n  \"sourceId\": 152,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 406,\n  \"targetId\": 12,\n  \"sourceId\": 152,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 407,\n  \"targetId\": 153,\n  \"sourceId\": 152,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 408,\n  \"targetId\": 156,\n  \"sourceId\": 152,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 409,\n  \"targetId\": 67,\n  \"sourceId\": 156,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 410,\n  \"targetId\": 152,\n  \"sourceId\": 156,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 411,\n  \"targetId\": 157,\n  \"sourceId\": 156,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 412,\n  \"targetId\": 160,\n  \"sourceId\": 156,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 413,\n  \"targetId\": 73,\n  \"sourceId\": 160,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 414,\n  \"targetId\": 156,\n  \"sourceId\": 160,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 415,\n  \"targetId\": 161,\n  \"sourceId\": 160,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 416,\n  \"targetId\": 164,\n  \"sourceId\": 160,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 417,\n  \"targetId\": 79,\n  \"sourceId\": 164,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 418,\n  \"targetId\": 160,\n  \"sourceId\": 164,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 419,\n  \"targetId\": 165,\n  \"sourceId\": 164,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 420,\n  \"targetId\": 168,\n  \"sourceId\": 164,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 421,\n  \"targetId\": 85,\n  \"sourceId\": 168,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 422,\n  \"targetId\": 164,\n  \"sourceId\": 168,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 423,\n  \"targetId\": 169,\n  \"sourceId\": 168,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 424,\n  \"targetId\": 172,\n  \"sourceId\": 168,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 425,\n  \"targetId\": 91,\n  \"sourceId\": 172,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 426,\n  \"targetId\": 168,\n  \"sourceId\": 172,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 427,\n  \"targetId\": 173,\n  \"sourceId\": 172,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 428,\n  \"targetId\": 152,\n  \"sourceId\": 153,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 429,\n  \"targetId\": 13,\n  \"sourceId\": 153,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 430,\n  \"targetId\": 154,\n  \"sourceId\": 153,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 431,\n  \"targetId\": 157,\n  \"sourceId\": 153,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 432,\n  \"targetId\": 156,\n  \"sourceId\": 157,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 433,\n  \"targetId\": 153,\n  \"sourceId\": 157,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 434,\n  \"targetId\": 158,\n  \"sourceId\": 157,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 435,\n  \"targetId\": 161,\n  \"sourceId\": 157,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 436,\n  \"targetId\": 160,\n  \"sourceId\": 161,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 437,\n  \"targetId\": 157,\n  \"sourceId\": 161,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 438,\n  \"targetId\": 162,\n  \"sourceId\": 161,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 439,\n  \"targetId\": 165,\n  \"sourceId\": 161,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 440,\n  \"targetId\": 164,\n  \"sourceId\": 165,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 441,\n  \"targetId\": 161,\n  \"sourceId\": 165,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 442,\n  \"targetId\": 166,\n  \"sourceId\": 165,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 443,\n  \"targetId\": 169,\n  \"sourceId\": 165,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 444,\n  \"targetId\": 168,\n  \"sourceId\": 169,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 445,\n  \"targetId\": 165,\n  \"sourceId\": 169,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 446,\n  \"targetId\": 170,\n  \"sourceId\": 169,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 447,\n  \"targetId\": 173,\n  \"sourceId\": 169,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 448,\n  \"targetId\": 172,\n  \"sourceId\": 173,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 449,\n  \"targetId\": 169,\n  \"sourceId\": 173,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 450,\n  \"targetId\": 174,\n  \"sourceId\": 173,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 451,\n  \"targetId\": 153,\n  \"sourceId\": 154,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 452,\n  \"targetId\": 14,\n  \"sourceId\": 154,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 453,\n  \"targetId\": 155,\n  \"sourceId\": 154,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 454,\n  \"targetId\": 158,\n  \"sourceId\": 154,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 455,\n  \"targetId\": 157,\n  \"sourceId\": 158,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 456,\n  \"targetId\": 154,\n  \"sourceId\": 158,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 457,\n  \"targetId\": 159,\n  \"sourceId\": 158,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 458,\n  \"targetId\": 162,\n  \"sourceId\": 158,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 459,\n  \"targetId\": 161,\n  \"sourceId\": 162,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 460,\n  \"targetId\": 158,\n  \"sourceId\": 162,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 461,\n  \"targetId\": 163,\n  \"sourceId\": 162,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 462,\n  \"targetId\": 166,\n  \"sourceId\": 162,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 463,\n  \"targetId\": 165,\n  \"sourceId\": 166,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 464,\n  \"targetId\": 162,\n  \"sourceId\": 166,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 465,\n  \"targetId\": 167,\n  \"sourceId\": 166,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 466,\n  \"targetId\": 170,\n  \"sourceId\": 166,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 467,\n  \"targetId\": 169,\n  \"sourceId\": 170,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 468,\n  \"targetId\": 166,\n  \"sourceId\": 170,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 469,\n  \"targetId\": 171,\n  \"sourceId\": 170,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 470,\n  \"targetId\": 174,\n  \"sourceId\": 170,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 471,\n  \"targetId\": 173,\n  \"sourceId\": 174,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 472,\n  \"targetId\": 170,\n  \"sourceId\": 174,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 473,\n  \"targetId\": 175,\n  \"sourceId\": 174,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 474,\n  \"targetId\": 154,\n  \"sourceId\": 155,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 475,\n  \"targetId\": 15,\n  \"sourceId\": 155,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 476,\n  \"targetId\": 95,\n  \"sourceId\": 155,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 477,\n  \"targetId\": 159,\n  \"sourceId\": 155,\n  \"length\": 0,\n  \"type\": \"wort 2 - future\"\n },\n {\n  \"id\": 478,\n  \"targetId\": 158,\n  \"sourceId\": 159,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 479,\n  \"targetId\": 155,\n  \"sourceId\": 159,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 480,\n  \"targetId\": 99,\n  \"sourceId\": 159,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 481,\n  \"targetId\": 163,\n  \"sourceId\": 159,\n  \"length\": 0,\n  \"type\": \"wort 1\"\n },\n {\n  \"id\": 482,\n  \"targetId\": 162,\n  \"sourceId\": 163,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 483,\n  \"targetId\": 159,\n  \"sourceId\": 163,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 484,\n  \"targetId\": 103,\n  \"sourceId\": 163,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 485,\n  \"targetId\": 167,\n  \"sourceId\": 163,\n  \"length\": 0,\n  \"type\": \"green beer out 1\"\n },\n {\n  \"id\": 486,\n  \"targetId\": 166,\n  \"sourceId\": 167,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 487,\n  \"targetId\": 163,\n  \"sourceId\": 167,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 488,\n  \"targetId\": 107,\n  \"sourceId\": 167,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 489,\n  \"targetId\": 171,\n  \"sourceId\": 167,\n  \"length\": 0,\n  \"type\": \"green beer out 2\"\n },\n {\n  \"id\": 490,\n  \"targetId\": 170,\n  \"sourceId\": 171,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 491,\n  \"targetId\": 167,\n  \"sourceId\": 171,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 492,\n  \"targetId\": 111,\n  \"sourceId\": 171,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 493,\n  \"targetId\": 175,\n  \"sourceId\": 171,\n  \"length\": 0,\n  \"type\": \"filtration 1\"\n },\n {\n  \"id\": 494,\n  \"targetId\": 174,\n  \"sourceId\": 175,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 495,\n  \"targetId\": 171,\n  \"sourceId\": 175,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 496,\n  \"targetId\": 115,\n  \"sourceId\": 175,\n  \"length\": 0,\n  \"type\": \"filtration 2\"\n },\n {\n  \"id\": 497,\n  \"targetId\": 48,\n  \"sourceId\": 12,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 498,\n  \"targetId\": 52,\n  \"sourceId\": 12,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 499,\n  \"targetId\": 49,\n  \"sourceId\": 13,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 500,\n  \"targetId\": 53,\n  \"sourceId\": 13,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 501,\n  \"targetId\": 50,\n  \"sourceId\": 14,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 502,\n  \"targetId\": 54,\n  \"sourceId\": 14,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 503,\n  \"targetId\": 51,\n  \"sourceId\": 15,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 504,\n  \"targetId\": 55,\n  \"sourceId\": 15,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 505,\n  \"targetId\": 12,\n  \"sourceId\": 48,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 506,\n  \"targetId\": 13,\n  \"sourceId\": 49,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 507,\n  \"targetId\": 14,\n  \"sourceId\": 50,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 508,\n  \"targetId\": 15,\n  \"sourceId\": 51,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 509,\n  \"targetId\": 12,\n  \"sourceId\": 52,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 510,\n  \"targetId\": 13,\n  \"sourceId\": 53,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 511,\n  \"targetId\": 14,\n  \"sourceId\": 54,\n  \"length\": 0,\n  \"type\": null\n },\n {\n  \"id\": 512,\n  \"targetId\": 15,\n  \"sourceId\": 55,\n  \"length\": 0,\n  \"type\": null\n }\n]"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/inouts/name=Teste",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/inouts/name=Teste",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"inouts",
+						"name=Teste"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/inouts/name=Teste",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"inouts",
+								"name=Teste"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "34"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 23:40:46 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "text/plain;charset=UTF-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/inouts/id=176",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/inouts/id=176",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"inouts",
+						"id=176"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/inouts/id=176",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"inouts",
+								"id=176"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "32"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 23:40:02 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "text/plain;charset=UTF-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/inouts/id=176",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/inouts/id=176",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"inouts",
+						"id=176"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/inouts/id=176",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"inouts",
+								"id=176"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 23:39:36 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n \"name\": \"Teste-Novo\"\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/inouts/register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/inouts/register",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"inouts",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "created / 201",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/inouts/register",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"inouts",
+								"register"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 23:38:31 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n \"name\": \"Teste\"\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/inouts/name=wort",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/inouts/name=wort",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"inouts",
+						"name=wort"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/inouts/name=wort",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"inouts",
+								"name=wort"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 22:28:45 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n \"id\": 0,\n \"name\": \"wort\"\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/inouts/id=2",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/inouts/id=2",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"inouts",
+						"id=2"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/inouts/id=2",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"inouts",
+								"id=2"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 22:28:16 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n \"id\": 2,\n \"name\": \"green beer out 1\"\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/inouts/",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/inouts/",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"inouts",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/inouts/",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"inouts",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 22:26:59 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "[\n {\n  \"id\": 0,\n  \"name\": \"wort\"\n },\n {\n  \"id\": 2,\n  \"name\": \"green beer out 1\"\n },\n {\n  \"id\": 3,\n  \"name\": \"green beer out 2\"\n }\n]"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/valves/name=Teste",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/valves/name=Teste",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"valves",
+						"name=Teste"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/valves/name=Teste",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"valves",
+								"name=Teste"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "34"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 23:35:38 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "text/plain;charset=UTF-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/valves/id=178",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/valves/id=178",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"valves",
+						"id=178"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/valves/id=178",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"valves",
+								"id=178"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "32"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 23:34:54 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "text/plain;charset=UTF-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/valves/id=178",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/valves/id=178",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"valves",
+						"id=178"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/valves/id=178",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"valves",
+								"id=178"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 23:34:27 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n \"name\": \"Teste\",\n \"type\": \"solenoide\"\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/valves/register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/valves/register",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"valves",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "created / 201",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/valves/register",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"valves",
+								"register"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 23:35:01 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n \"name\": \"Teste\",\n \"type\": \"mixproof\"\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/valves/name=ARW2",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/valves/name=ARW2",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"valves",
+						"name=ARW2"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/valves/name=ARW2",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"valves",
+								"name=ARW2"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 22:25:38 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n \"id\": 63,\n \"name\": \"ARW2\",\n \"type\": \"mixproof\",\n \"connectedINOUT\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/valves/id=23",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/valves/id=23",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"valves",
+						"id=23"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/valves/id=23",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"valves",
+								"id=23"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 22:25:06 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n \"id\": 23,\n \"name\": \"SN2GB2\",\n \"type\": \"mixproof\",\n \"connectedINOUT\": [\n  {\n   \"id\": 3,\n   \"name\": \"green beer out 2\"\n  }\n ]\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/valves/",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/valves/",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"valves",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/valves/",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"valves",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 22:22:33 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "[\n {\n  \"id\": 1,\n  \"name\": \"VPN\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 4,\n  \"name\": \"ART1\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 5,\n  \"name\": \"ART2\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 6,\n  \"name\": \"BRT1\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 7,\n  \"name\": \"BRT2\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 8,\n  \"name\": \"BRT3\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 9,\n  \"name\": \"BRT4\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 10,\n  \"name\": \"CRT1\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 11,\n  \"name\": \"CRT2\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 12,\n  \"name\": \"DRT1\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 13,\n  \"name\": \"DRT2\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 14,\n  \"name\": \"DRT3\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 15,\n  \"name\": \"DRT4\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 16,\n  \"name\": \"NN1GB1\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 17,\n  \"name\": \"NN1GB2\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 18,\n  \"name\": \"NN2GB1\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 19,\n  \"name\": \"NN2GB2\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 20,\n  \"name\": \"SN1GB1\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": [\n   {\n    \"id\": 2,\n    \"name\": \"green beer out 1\"\n   }\n  ]\n },\n {\n  \"id\": 21,\n  \"name\": \"SN1GB2\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": [\n   {\n    \"id\": 2,\n    \"name\": \"green beer out 1\"\n   }\n  ]\n },\n {\n  \"id\": 22,\n  \"name\": \"SN2GB1\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": [\n   {\n    \"id\": 3,\n    \"name\": \"green beer out 2\"\n   }\n  ]\n },\n {\n  \"id\": 23,\n  \"name\": \"SN2GB2\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": [\n   {\n    \"id\": 3,\n    \"name\": \"green beer out 2\"\n   }\n  ]\n },\n {\n  \"id\": 56,\n  \"name\": \"ARWF1\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 57,\n  \"name\": \"ARWF2\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 58,\n  \"name\": \"ARWF3\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 59,\n  \"name\": \"ARWF4\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 60,\n  \"name\": \"ARWF5\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 61,\n  \"name\": \"ARWF6\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 62,\n  \"name\": \"ARW1\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 63,\n  \"name\": \"ARW2\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 64,\n  \"name\": \"ARW3\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 65,\n  \"name\": \"ARW4\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 66,\n  \"name\": \"ARW5\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 67,\n  \"name\": \"ARW6\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 68,\n  \"name\": \"AR1G1\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 69,\n  \"name\": \"AR1G2\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 70,\n  \"name\": \"AR1G3\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 71,\n  \"name\": \"AR1G4\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 72,\n  \"name\": \"AR1G5\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 73,\n  \"name\": \"AR1G6\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 74,\n  \"name\": \"AR2G1\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 75,\n  \"name\": \"AR2G2\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 76,\n  \"name\": \"AR2G3\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 77,\n  \"name\": \"AR2G4\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 78,\n  \"name\": \"AR2G5\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 79,\n  \"name\": \"AR2G6\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 80,\n  \"name\": \"ARF1\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 81,\n  \"name\": \"ARF2\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 82,\n  \"name\": \"ARF3\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 83,\n  \"name\": \"ARF4\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 84,\n  \"name\": \"ARF5\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 85,\n  \"name\": \"ARF6\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 86,\n  \"name\": \"ARFF1\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 87,\n  \"name\": \"ARFF2\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 88,\n  \"name\": \"ARFF3\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 89,\n  \"name\": \"ARFF4\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 90,\n  \"name\": \"ARFF5\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 91,\n  \"name\": \"ARFF6\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 92,\n  \"name\": \"BRWF1\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 93,\n  \"name\": \"BRWF2\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 94,\n  \"name\": \"BRWF3\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 95,\n  \"name\": \"BRWF4\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 96,\n  \"name\": \"BRW1\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 97,\n  \"name\": \"BRW2\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 98,\n  \"name\": \"BRW3\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 99,\n  \"name\": \"BRW4\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 100,\n  \"name\": \"BR1G1\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 101,\n  \"name\": \"BR1G2\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 102,\n  \"name\": \"BR1G3\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 103,\n  \"name\": \"BR1G4\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 104,\n  \"name\": \"BR2G1\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 105,\n  \"name\": \"BR2G2\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 106,\n  \"name\": \"BR2G3\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 107,\n  \"name\": \"BR2G4\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 108,\n  \"name\": \"BRF1\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 109,\n  \"name\": \"BRF2\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 110,\n  \"name\": \"BRF3\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 111,\n  \"name\": \"BRF4\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 112,\n  \"name\": \"BRFF1\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 113,\n  \"name\": \"BRFF2\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 114,\n  \"name\": \"BRFF3\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 115,\n  \"name\": \"BRFF4\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 116,\n  \"name\": \"CRWF1\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 117,\n  \"name\": \"CRWF2\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 118,\n  \"name\": \"CRWF3\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 119,\n  \"name\": \"CRWF4\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 120,\n  \"name\": \"CRWF5\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 121,\n  \"name\": \"CRWF6\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 122,\n  \"name\": \"CRW1\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 123,\n  \"name\": \"CRW2\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 124,\n  \"name\": \"CRW3\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 125,\n  \"name\": \"CRW4\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 126,\n  \"name\": \"CRW5\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 127,\n  \"name\": \"CRW6\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 128,\n  \"name\": \"CR1G1\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 129,\n  \"name\": \"CR1G2\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 130,\n  \"name\": \"CR1G3\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 131,\n  \"name\": \"CR1G4\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 132,\n  \"name\": \"CR1G5\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 133,\n  \"name\": \"CR1G6\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 134,\n  \"name\": \"CR2G1\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 135,\n  \"name\": \"CR2G2\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 136,\n  \"name\": \"CR2G3\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 137,\n  \"name\": \"CR2G4\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 138,\n  \"name\": \"CR2G5\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 139,\n  \"name\": \"CR2G6\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 140,\n  \"name\": \"CRF1\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 141,\n  \"name\": \"CRF2\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 142,\n  \"name\": \"CRF3\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 143,\n  \"name\": \"CRF4\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 144,\n  \"name\": \"CRF5\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 145,\n  \"name\": \"CRF6\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 146,\n  \"name\": \"CRFF1\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 147,\n  \"name\": \"CRFF2\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 148,\n  \"name\": \"CRFF3\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 149,\n  \"name\": \"CRFF4\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 150,\n  \"name\": \"CRFF5\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 151,\n  \"name\": \"CRFF6\",\n  \"type\": \"mixproof\",\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 152,\n  \"name\": \"DRWF1\",\n  \"type\": null,\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 153,\n  \"name\": \"DRWF2\",\n  \"type\": null,\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 154,\n  \"name\": \"DRWF3\",\n  \"type\": null,\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 155,\n  \"name\": \"DRWF4\",\n  \"type\": null,\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 156,\n  \"name\": \"DRW1\",\n  \"type\": null,\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 157,\n  \"name\": \"DRW2\",\n  \"type\": null,\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 158,\n  \"name\": \"DRW3\",\n  \"type\": null,\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 159,\n  \"name\": \"DRW4\",\n  \"type\": null,\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 160,\n  \"name\": \"DR1G1\",\n  \"type\": null,\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 161,\n  \"name\": \"DR1G2\",\n  \"type\": null,\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 162,\n  \"name\": \"DR1G3\",\n  \"type\": null,\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 163,\n  \"name\": \"DR1G4\",\n  \"type\": null,\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 164,\n  \"name\": \"DR2G1\",\n  \"type\": null,\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 165,\n  \"name\": \"DR2G2\",\n  \"type\": null,\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 166,\n  \"name\": \"DR2G3\",\n  \"type\": null,\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 167,\n  \"name\": \"DR2G4\",\n  \"type\": null,\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 168,\n  \"name\": \"DRF1\",\n  \"type\": null,\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 169,\n  \"name\": \"DRF2\",\n  \"type\": null,\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 170,\n  \"name\": \"DRF3\",\n  \"type\": null,\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 171,\n  \"name\": \"DRF4\",\n  \"type\": null,\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 172,\n  \"name\": \"DRFF1\",\n  \"type\": null,\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 173,\n  \"name\": \"DRFF2\",\n  \"type\": null,\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 174,\n  \"name\": \"DRFF3\",\n  \"type\": null,\n  \"connectedINOUT\": []\n },\n {\n  \"id\": 175,\n  \"name\": \"DRFF4\",\n  \"type\": null,\n  \"connectedINOUT\": []\n }\n]"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/tanks/name=Teste2",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/tanks/name=Teste2",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"tanks",
+						"name=Teste2"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/tanks/name=Teste2",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"tanks",
+								"name=Teste2"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "33"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 22:43:21 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "text/plain;charset=UTF-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/tanks/id=178",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/tanks/id=178",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"tanks",
+						"id=178"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/tanks/id=178",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"tanks",
+								"id=178"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "31"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 22:42:21 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "text/plain;charset=UTF-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/tanks/id=178",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/tanks/id=178",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"tanks",
+						"id=178"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/tanks/id=178",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"tanks",
+								"id=178"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 22:41:45 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n \"name\": \"Teste-2\",\n \"volume\": 20\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/tanks/register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/tanks/register",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"tanks",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "created / 201",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/tanks/register",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"tanks",
+								"register"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 22:39:07 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n \"name\": \"Teste2\",\n \"volume\": 21\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/tanks/name=DT5",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/tanks/name=DT5",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"tanks",
+						"name=DT5"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/tanks/name=DT5",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"tanks",
+								"name=DT5"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 22:24:10 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n \"id\": 52,\n \"name\": \"DT5\",\n \"volume\": 0,\n \"valves\": [\n  {\n   \"id\": 12,\n   \"name\": \"DRT1\",\n   \"type\": \"mixproof\",\n   \"connectedINOUT\": []\n  }\n ]\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/tanks/id=25",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/tanks/id=25",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"tanks",
+						"id=25"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/tanks/id=25",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"tanks",
+								"id=25"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 22:19:52 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n \"id\": 25,\n \"name\": \"AT2\",\n \"volume\": 0,\n \"valves\": [\n  {\n   \"id\": 59,\n   \"name\": \"ARWF4\",\n   \"type\": \"mixproof\",\n   \"connectedINOUT\": []\n  }\n ]\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/tanks/",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.6"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/api/tanks/",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"tanks",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.6"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL1}}/api/tanks/",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"tanks",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 24 Aug 2023 22:21:49 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "[\n {\n  \"id\": 24,\n  \"name\": \"AT1\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 57,\n    \"name\": \"ARWF2\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 25,\n  \"name\": \"AT2\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 59,\n    \"name\": \"ARWF4\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 26,\n  \"name\": \"AT3\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 4,\n    \"name\": \"ART1\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 27,\n  \"name\": \"AT4\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 5,\n    \"name\": \"ART2\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 28,\n  \"name\": \"AT5\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 56,\n    \"name\": \"ARWF1\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 29,\n  \"name\": \"AT6\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 58,\n    \"name\": \"ARWF3\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 30,\n  \"name\": \"AT7\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 4,\n    \"name\": \"ART1\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 31,\n  \"name\": \"AT8\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 5,\n    \"name\": \"ART2\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 32,\n  \"name\": \"BT1\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 6,\n    \"name\": \"BRT1\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 33,\n  \"name\": \"BT2\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 7,\n    \"name\": \"BRT2\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 34,\n  \"name\": \"BT3\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 8,\n    \"name\": \"BRT3\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 35,\n  \"name\": \"BT4\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 9,\n    \"name\": \"BRT4\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 36,\n  \"name\": \"BT5\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 6,\n    \"name\": \"BRT1\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 37,\n  \"name\": \"BT6\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 7,\n    \"name\": \"BRT2\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 38,\n  \"name\": \"BT7\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 8,\n    \"name\": \"BRT3\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 39,\n  \"name\": \"BT8\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 9,\n    \"name\": \"BRT4\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 40,\n  \"name\": \"CT1\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 117,\n    \"name\": \"CRWF2\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 41,\n  \"name\": \"CT2\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 119,\n    \"name\": \"CRWF4\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 42,\n  \"name\": \"CT3\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 10,\n    \"name\": \"CRT1\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 43,\n  \"name\": \"CT4\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 11,\n    \"name\": \"CRT2\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 44,\n  \"name\": \"CT5\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 116,\n    \"name\": \"CRWF1\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 45,\n  \"name\": \"CT6\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 118,\n    \"name\": \"CRWF3\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 46,\n  \"name\": \"CT7\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 10,\n    \"name\": \"CRT1\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 47,\n  \"name\": \"CT8\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 11,\n    \"name\": \"CRT2\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 48,\n  \"name\": \"DT1\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 12,\n    \"name\": \"DRT1\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 49,\n  \"name\": \"DT2\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 13,\n    \"name\": \"DRT2\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 50,\n  \"name\": \"DT3\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 14,\n    \"name\": \"DRT3\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 51,\n  \"name\": \"DT4\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 15,\n    \"name\": \"DRT4\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 52,\n  \"name\": \"DT5\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 12,\n    \"name\": \"DRT1\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 53,\n  \"name\": \"DT6\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 13,\n    \"name\": \"DRT2\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 54,\n  \"name\": \"DT7\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 14,\n    \"name\": \"DRT3\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n },\n {\n  \"id\": 55,\n  \"name\": \"DT8\",\n  \"volume\": 0,\n  \"valves\": [\n   {\n    \"id\": 15,\n    \"name\": \"DRT4\",\n    \"type\": \"mixproof\",\n    \"connectedINOUT\": []\n   }\n  ]\n }\n]"
+				}
+			]
+		},
+		{
+			"name": "localhost:8080/api/paths/Adjacency",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL1}}/api/paths/Adjacency",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"paths",
+						"Adjacency"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL1}}/api/paths/Adjacency",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"paths",
+								"Adjacency"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 10 Sep 2023 12:57:49 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"0\": [\n        1\n    ],\n    \"1\": [\n        62,\n        122\n    ],\n    \"2\": [\n        21,\n        17\n    ],\n    \"3\": [\n        23,\n        19\n    ],\n    \"4\": [\n        26,\n        30\n    ],\n    \"5\": [\n        27,\n        31\n    ],\n    \"6\": [\n        32,\n        36\n    ],\n    \"7\": [\n        33,\n        37\n    ],\n    \"8\": [\n        34,\n        38\n    ],\n    \"9\": [\n        35,\n        39\n    ],\n    \"10\": [\n        42,\n        46\n    ],\n    \"11\": [\n        43,\n        47\n    ],\n    \"12\": [\n        48,\n        52\n    ],\n    \"13\": [\n        49,\n        53\n    ],\n    \"14\": [\n        50,\n        54\n    ],\n    \"15\": [\n        51,\n        55\n    ],\n    \"16\": [\n        21\n    ],\n    \"17\": [\n        100\n    ],\n    \"18\": [\n        23\n    ],\n    \"19\": [\n        104\n    ],\n    \"20\": [\n        2\n    ],\n    \"21\": [\n        2,\n        160\n    ],\n    \"22\": [\n        3\n    ],\n    \"23\": [\n        3,\n        164\n    ],\n    \"24\": [\n        57\n    ],\n    \"25\": [\n        59\n    ],\n    \"26\": [\n        4\n    ],\n    \"27\": [\n        5\n    ],\n    \"28\": [\n        56\n    ],\n    \"29\": [\n        58\n    ],\n    \"30\": [\n        4\n    ],\n    \"31\": [\n        5\n    ],\n    \"32\": [\n        6\n    ],\n    \"33\": [\n        7\n    ],\n    \"34\": [\n        8\n    ],\n    \"35\": [\n        9\n    ],\n    \"36\": [\n        6\n    ],\n    \"37\": [\n        7\n    ],\n    \"38\": [\n        8\n    ],\n    \"39\": [\n        9\n    ],\n    \"40\": [\n        117\n    ],\n    \"41\": [\n        119\n    ],\n    \"42\": [\n        10\n    ],\n    \"43\": [\n        11\n    ],\n    \"44\": [\n        116\n    ],\n    \"45\": [\n        118\n    ],\n    \"46\": [\n        10\n    ],\n    \"47\": [\n        11\n    ],\n    \"48\": [\n        12\n    ],\n    \"49\": [\n        13\n    ],\n    \"50\": [\n        14\n    ],\n    \"51\": [\n        15\n    ],\n    \"52\": [\n        12\n    ],\n    \"53\": [\n        13\n    ],\n    \"54\": [\n        14\n    ],\n    \"55\": [\n        15\n    ],\n    \"56\": [\n        28,\n        57,\n        62\n    ],\n    \"57\": [\n        56,\n        24,\n        58,\n        63\n    ],\n    \"58\": [\n        57,\n        29,\n        59,\n        64\n    ],\n    \"59\": [\n        58,\n        25,\n        60,\n        65\n    ],\n    \"60\": [\n        59,\n        4,\n        61,\n        66\n    ],\n    \"61\": [\n        60,\n        5,\n        92,\n        67\n    ],\n    \"62\": [\n        56,\n        63,\n        68\n    ],\n    \"63\": [\n        62,\n        57,\n        64,\n        69\n    ],\n    \"64\": [\n        63,\n        58,\n        65,\n        70\n    ],\n    \"65\": [\n        64,\n        59,\n        66,\n        71\n    ],\n    \"66\": [\n        65,\n        60,\n        67,\n        72\n    ],\n    \"67\": [\n        66,\n        61,\n        96,\n        73\n    ],\n    \"68\": [\n        62,\n        69,\n        74\n    ],\n    \"69\": [\n        68,\n        63,\n        70,\n        75\n    ],\n    \"70\": [\n        69,\n        64,\n        71,\n        76\n    ],\n    \"71\": [\n        70,\n        65,\n        72,\n        77\n    ],\n    \"72\": [\n        71,\n        66,\n        73,\n        78\n    ],\n    \"73\": [\n        72,\n        67,\n        16,\n        79\n    ],\n    \"74\": [\n        68,\n        75,\n        80\n    ],\n    \"75\": [\n        74,\n        69,\n        76,\n        81\n    ],\n    \"76\": [\n        75,\n        70,\n        77,\n        82\n    ],\n    \"77\": [\n        76,\n        71,\n        78,\n        83\n    ],\n    \"78\": [\n        77,\n        72,\n        79,\n        84\n    ],\n    \"79\": [\n        78,\n        73,\n        18,\n        85\n    ],\n    \"80\": [\n        74,\n        81,\n        86\n    ],\n    \"81\": [\n        80,\n        75,\n        82,\n        87\n    ],\n    \"82\": [\n        81,\n        76,\n        83,\n        88\n    ],\n    \"83\": [\n        82,\n        77,\n        84,\n        89\n    ],\n    \"84\": [\n        83,\n        78,\n        85,\n        90\n    ],\n    \"85\": [\n        84,\n        79,\n        108,\n        91\n    ],\n    \"86\": [\n        80,\n        87\n    ],\n    \"87\": [\n        86,\n        81,\n        88\n    ],\n    \"88\": [\n        87,\n        82,\n        89\n    ],\n    \"89\": [\n        88,\n        83,\n        90\n    ],\n    \"90\": [\n        89,\n        84,\n        91\n    ],\n    \"91\": [\n        90,\n        85,\n        112\n    ],\n    \"92\": [\n        61,\n        6,\n        93,\n        96\n    ],\n    \"93\": [\n        92,\n        7,\n        94,\n        97\n    ],\n    \"94\": [\n        93,\n        8,\n        95,\n        98\n    ],\n    \"95\": [\n        94,\n        9,\n        155,\n        99\n    ],\n    \"96\": [\n        67,\n        92,\n        97,\n        100\n    ],\n    \"97\": [\n        96,\n        93,\n        98,\n        101\n    ],\n    \"98\": [\n        97,\n        94,\n        99,\n        102\n    ],\n    \"99\": [\n        98,\n        95,\n        159,\n        103\n    ],\n    \"100\": [\n        73,\n        96,\n        101,\n        104\n    ],\n    \"102\": [\n        101,\n        98,\n        103,\n        106\n    ],\n    \"103\": [\n        102,\n        99,\n        163,\n        107\n    ],\n    \"104\": [\n        79,\n        100,\n        105,\n        108\n    ],\n    \"106\": [\n        105,\n        102,\n        107,\n        110\n    ],\n    \"107\": [\n        106,\n        103,\n        167,\n        111\n    ],\n    \"108\": [\n        85,\n        104,\n        109,\n        112\n    ],\n    \"109\": [\n        108,\n        105,\n        110,\n        113\n    ],\n    \"110\": [\n        109,\n        106,\n        111,\n        114\n    ],\n    \"111\": [\n        110,\n        107,\n        171,\n        115\n    ],\n    \"112\": [\n        91,\n        108,\n        113\n    ],\n    \"113\": [\n        112,\n        109,\n        114\n    ],\n    \"114\": [\n        113,\n        110,\n        115\n    ],\n    \"115\": [\n        114,\n        111,\n        175\n    ],\n    \"116\": [\n        44,\n        117,\n        122\n    ],\n    \"117\": [\n        116,\n        40,\n        118,\n        123\n    ],\n    \"118\": [\n        117,\n        45,\n        119,\n        124\n    ],\n    \"119\": [\n        118,\n        41,\n        120,\n        125\n    ],\n    \"120\": [\n        119,\n        10,\n        121,\n        126\n    ],\n    \"121\": [\n        120,\n        11,\n        152,\n        127\n    ],\n    \"122\": [\n        116,\n        123,\n        128\n    ],\n    \"123\": [\n        122,\n        117,\n        124,\n        129\n    ],\n    \"124\": [\n        123,\n        118,\n        125,\n        130\n    ],\n    \"125\": [\n        124,\n        119,\n        126,\n        131\n    ],\n    \"126\": [\n        125,\n        120,\n        127,\n        132\n    ],\n    \"127\": [\n        126,\n        121,\n        156,\n        133\n    ],\n    \"128\": [\n        122,\n        129,\n        134\n    ],\n    \"129\": [\n        128,\n        123,\n        130,\n        135\n    ],\n    \"130\": [\n        129,\n        124,\n        131,\n        136\n    ],\n    \"131\": [\n        130,\n        125,\n        132,\n        137\n    ],\n    \"132\": [\n        131,\n        126,\n        133,\n        138\n    ],\n    \"133\": [\n        132,\n        127,\n        20,\n        139\n    ],\n    \"134\": [\n        128,\n        135,\n        140\n    ],\n    \"135\": [\n        134,\n        129,\n        136,\n        141\n    ],\n    \"136\": [\n        135,\n        130,\n        137,\n        142\n    ],\n    \"137\": [\n        136,\n        131,\n        138,\n        143\n    ],\n    \"138\": [\n        137,\n        132,\n        139,\n        144\n    ],\n    \"139\": [\n        138,\n        133,\n        22,\n        145\n    ],\n    \"140\": [\n        134,\n        141,\n        146\n    ],\n    \"141\": [\n        140,\n        135,\n        142,\n        147\n    ],\n    \"142\": [\n        141,\n        136,\n        148,\n        143\n    ],\n    \"143\": [\n        142,\n        137,\n        144,\n        149\n    ],\n    \"144\": [\n        143,\n        138,\n        145,\n        150\n    ],\n    \"145\": [\n        144,\n        139,\n        168,\n        151\n    ],\n    \"146\": [\n        140,\n        147\n    ],\n    \"147\": [\n        146,\n        141,\n        148\n    ],\n    \"148\": [\n        147,\n        142,\n        149\n    ],\n    \"149\": [\n        148,\n        143,\n        150\n    ],\n    \"150\": [\n        149,\n        144,\n        151\n    ],\n    \"151\": [\n        150,\n        145,\n        172\n    ],\n    \"152\": [\n        61,\n        12,\n        153,\n        156\n    ],\n    \"153\": [\n        152,\n        13,\n        154,\n        157\n    ],\n    \"154\": [\n        153,\n        14,\n        155,\n        158\n    ],\n    \"155\": [\n        154,\n        15,\n        95,\n        159\n    ],\n    \"156\": [\n        67,\n        152,\n        157,\n        160\n    ],\n    \"157\": [\n        156,\n        153,\n        158,\n        161\n    ],\n    \"158\": [\n        157,\n        154,\n        159,\n        162\n    ],\n    \"159\": [\n        158,\n        155,\n        99,\n        163\n    ],\n    \"160\": [\n        73,\n        156,\n        161,\n        164\n    ],\n    \"161\": [\n        160,\n        157,\n        162,\n        165\n    ],\n    \"162\": [\n        161,\n        158,\n        163,\n        166\n    ],\n    \"163\": [\n        162,\n        159,\n        103,\n        167\n    ],\n    \"164\": [\n        79,\n        160,\n        165,\n        168\n    ],\n    \"165\": [\n        164,\n        161,\n        166,\n        169\n    ],\n    \"166\": [\n        165,\n        162,\n        167,\n        170\n    ],\n    \"167\": [\n        166,\n        163,\n        107,\n        171\n    ],\n    \"168\": [\n        85,\n        164,\n        169,\n        172\n    ],\n    \"169\": [\n        168,\n        165,\n        170,\n        173\n    ],\n    \"170\": [\n        169,\n        166,\n        171,\n        174\n    ],\n    \"171\": [\n        170,\n        167,\n        111,\n        175\n    ],\n    \"172\": [\n        91,\n        168,\n        173\n    ],\n    \"173\": [\n        172,\n        169,\n        174\n    ],\n    \"174\": [\n        173,\n        170,\n        175\n    ],\n    \"175\": [\n        174,\n        171,\n        115\n    ],\n    \"179\": [\n        195\n    ],\n    \"180\": [\n        182\n    ],\n    \"182\": [\n        180\n    ],\n    \"195\": [\n        179\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8080/api/paths/Dijkstra",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL1}}/api/paths/Dijkstra?begin=1&end=45",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"paths",
+						"Dijkstra"
+					],
+					"query": [
+						{
+							"key": "begin",
+							"value": "1"
+						},
+						{
+							"key": "end",
+							"value": "45"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:8080/api/paths/Adjacency Copy",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL1}}/api/paths/Dijkstra?begin=1&end=81",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"paths",
+								"Dijkstra"
+							],
+							"query": [
+								{
+									"key": "begin",
+									"value": "1"
+								},
+								{
+									"key": "end",
+									"value": "81"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 10 Sep 2023 13:00:10 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    1,\n    62,\n    68,\n    74,\n    80,\n    81\n]"
+				},
+				{
+					"name": "localhost:8080/api/paths/Adjacency Copy",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL1}}/api/paths/Dijkstra?begin=1&end=56",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"paths",
+								"Dijkstra"
+							],
+							"query": [
+								{
+									"key": "begin",
+									"value": "1"
+								},
+								{
+									"key": "end",
+									"value": "56"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 10 Sep 2023 13:00:32 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    1,\n    62,\n    56\n]"
+				},
+				{
+					"name": "localhost:8080/api/paths/Adjacency Copy",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL1}}/api/paths/Dijkstra?begin=1&end=41",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"paths",
+								"Dijkstra"
+							],
+							"query": [
+								{
+									"key": "begin",
+									"value": "1"
+								},
+								{
+									"key": "end",
+									"value": "41"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 10 Sep 2023 13:01:37 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    1,\n    122,\n    116,\n    117,\n    118,\n    119,\n    41\n]"
+				},
+				{
+					"name": "localhost:8080/api/paths/Adjacency Copy",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL1}}/api/paths/Dijkstra?begin=1&end=44",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"paths",
+								"Dijkstra"
+							],
+							"query": [
+								{
+									"key": "begin",
+									"value": "1"
+								},
+								{
+									"key": "end",
+									"value": "44"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 10 Sep 2023 13:02:10 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    1,\n    122,\n    116,\n    44\n]"
+				},
+				{
+					"name": "localhost:8080/api/paths/Adjacency Copy",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL1}}/api/paths/Dijkstra?begin=1&end=45",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"paths",
+								"Dijkstra"
+							],
+							"query": [
+								{
+									"key": "begin",
+									"value": "1"
+								},
+								{
+									"key": "end",
+									"value": "45"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 10 Sep 2023 13:02:21 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    1,\n    122,\n    116,\n    117,\n    118,\n    45\n]"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8080/api/paths/Dijkstra Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL1}}/api/paths/AStar?begin=1&end=45",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"api",
+						"paths",
+						"AStar"
+					],
+					"query": [
+						{
+							"key": "begin",
+							"value": "1"
+						},
+						{
+							"key": "end",
+							"value": "45"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8080/api/paths/Dijkstra Copy",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL1}}/api/paths/AStar?begin=1&end=81",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"paths",
+								"AStar"
+							],
+							"query": [
+								{
+									"key": "begin",
+									"value": "1"
+								},
+								{
+									"key": "end",
+									"value": "81"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 10 Sep 2023 13:07:31 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    1,\n    62,\n    68,\n    74,\n    75,\n    81\n]"
+				},
+				{
+					"name": "http://localhost:8080/api/paths/Dijkstra Copy",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL1}}/api/paths/AStar?begin=1&end=56",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"paths",
+								"AStar"
+							],
+							"query": [
+								{
+									"key": "begin",
+									"value": "1"
+								},
+								{
+									"key": "end",
+									"value": "56"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 10 Sep 2023 13:07:51 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    1,\n    62,\n    56\n]"
+				},
+				{
+					"name": "http://localhost:8080/api/paths/Dijkstra Copy",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL1}}/api/paths/AStar?begin=1&end=41",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"paths",
+								"AStar"
+							],
+							"query": [
+								{
+									"key": "begin",
+									"value": "1"
+								},
+								{
+									"key": "end",
+									"value": "41"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 10 Sep 2023 13:07:58 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    1,\n    122,\n    123,\n    124,\n    118,\n    119,\n    41\n]"
+				},
+				{
+					"name": "http://localhost:8080/api/paths/Dijkstra Copy",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL1}}/api/paths/AStar?begin=1&end=44",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"paths",
+								"AStar"
+							],
+							"query": [
+								{
+									"key": "begin",
+									"value": "1"
+								},
+								{
+									"key": "end",
+									"value": "44"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 10 Sep 2023 13:08:04 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    1,\n    122,\n    116,\n    44\n]"
+				},
+				{
+					"name": "http://localhost:8080/api/paths/Dijkstra Copy",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL1}}/api/paths/AStar?begin=1&end=45",
+							"host": [
+								"{{baseURL1}}"
+							],
+							"path": [
+								"api",
+								"paths",
+								"AStar"
+							],
+							"query": [
+								{
+									"key": "begin",
+									"value": "1"
+								},
+								{
+									"key": "end",
+									"value": "45"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 10 Sep 2023 13:08:10 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    1,\n    122,\n    123,\n    124,\n    118,\n    45\n]"
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL1",
+			"value": "http://localhost:8080",
+			"type": "any"
+		}
+	]
+}

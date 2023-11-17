@@ -1,0 +1,249 @@
+﻿[
+  {
+    "p": {
+      "start": {
+        "identity": 32,
+        "labels": [
+          "TANQUE"
+        ],
+        "properties": {
+          "volume": 0,
+          "name": "BT1"
+        },
+        "elementId": "32"
+      },
+      "end": {
+        "identity": 5,
+        "labels": [
+          "INOUT"
+        ],
+        "properties": {
+          "name": "green beer out 1"
+        },
+        "elementId": "5"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 32,
+            "labels": [
+              "TANQUE"
+            ],
+            "properties": {
+              "volume": 0,
+              "name": "BT1"
+            },
+            "elementId": "32"
+          },
+          "relationship": {
+            "identity": 253,
+            "start": 32,
+            "end": 6,
+            "type": "TUBULAÇÃO",
+            "properties": {
+
+            },
+            "elementId": "253",
+            "startNodeElementId": "32",
+            "endNodeElementId": "6"
+          },
+          "end": {
+            "identity": 6,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "BRT1",
+              "type": "mixproof"
+            },
+            "elementId": "6"
+          }
+        },
+        {
+          "start": {
+            "identity": 6,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "BRT1",
+              "type": "mixproof"
+            },
+            "elementId": "6"
+          },
+          "relationship": {
+            "identity": 162,
+            "start": 92,
+            "end": 6,
+            "type": "TUBULAÇÃO",
+            "properties": {
+              "length": 0,
+              "type": "wort 2 - future"
+            },
+            "elementId": "162",
+            "startNodeElementId": "92",
+            "endNodeElementId": "6"
+          },
+          "end": {
+            "identity": 92,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "BRWF1",
+              "type": "mixproof"
+            },
+            "elementId": "92"
+          }
+        },
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "BRWF1",
+              "type": "mixproof"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 166,
+            "start": 96,
+            "end": 92,
+            "type": "TUBULAÇÃO",
+            "properties": {
+              "length": 0,
+              "type": "wort 1"
+            },
+            "elementId": "166",
+            "startNodeElementId": "96",
+            "endNodeElementId": "92"
+          },
+          "end": {
+            "identity": 96,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "BRW1",
+              "type": "mixproof"
+            },
+            "elementId": "96"
+          }
+        },
+        {
+          "start": {
+            "identity": 96,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "BRW1",
+              "type": "mixproof"
+            },
+            "elementId": "96"
+          },
+          "relationship": {
+            "identity": 170,
+            "start": 100,
+            "end": 96,
+            "type": "TUBULAÇÃO",
+            "properties": {
+              "length": 0,
+              "type": "green beer out 1"
+            },
+            "elementId": "170",
+            "startNodeElementId": "100",
+            "endNodeElementId": "96"
+          },
+          "end": {
+            "identity": 100,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "BR1G1",
+              "type": "mixproof"
+            },
+            "elementId": "100"
+          }
+        },
+        {
+          "start": {
+            "identity": 100,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "BR1G1",
+              "type": "mixproof"
+            },
+            "elementId": "100"
+          },
+          "relationship": {
+            "identity": 4,
+            "start": 17,
+            "end": 100,
+            "type": "TUBULAÇÃO",
+            "properties": {
+
+            },
+            "elementId": "4",
+            "startNodeElementId": "17",
+            "endNodeElementId": "100"
+          },
+          "end": {
+            "identity": 17,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "NN1GB2",
+              "type": "mixproof"
+            },
+            "elementId": "17"
+          }
+        },
+        {
+          "start": {
+            "identity": 17,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "NN1GB2",
+              "type": "mixproof"
+            },
+            "elementId": "17"
+          },
+          "relationship": {
+            "identity": 14,
+            "start": 5,
+            "end": 17,
+            "type": "TUBULAÇÃO",
+            "properties": {
+              "length": 0,
+              "type": "green beer out 1"
+            },
+            "elementId": "14",
+            "startNodeElementId": "5",
+            "endNodeElementId": "17"
+          },
+          "end": {
+            "identity": 5,
+            "labels": [
+              "INOUT"
+            ],
+            "properties": {
+              "name": "green beer out 1"
+            },
+            "elementId": "5"
+          }
+        }
+      ],
+      "length": 6.0
+    }
+  }
+]

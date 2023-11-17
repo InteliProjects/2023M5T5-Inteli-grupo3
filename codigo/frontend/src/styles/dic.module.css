@@ -1,0 +1,14 @@
+
+  .dicionario {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    left: 260px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 4vw;
+    background-color: #fbfbf8;
+    border: 2px solid gray
+  }

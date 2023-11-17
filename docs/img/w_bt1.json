@@ -1,0 +1,433 @@
+﻿[
+  {
+    "p": {
+      "start": {
+        "identity": 3,
+        "labels": [
+          "INOUT"
+        ],
+        "properties": {
+          "name": "wort"
+        },
+        "elementId": "3"
+      },
+      "end": {
+        "identity": 32,
+        "labels": [
+          "TANQUE"
+        ],
+        "properties": {
+          "volume": 0,
+          "name": "BT1"
+        },
+        "elementId": "32"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 3,
+            "labels": [
+              "INOUT"
+            ],
+            "properties": {
+              "name": "wort"
+            },
+            "elementId": "3"
+          },
+          "relationship": {
+            "identity": 2,
+            "start": 3,
+            "end": 4,
+            "type": "TUBULAÇÃO",
+            "properties": {
+              "length": 0,
+              "type": "Wort 1"
+            },
+            "elementId": "2",
+            "startNodeElementId": "3",
+            "endNodeElementId": "4"
+          },
+          "end": {
+            "identity": 4,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "type": "mixproof"
+            },
+            "elementId": "4"
+          }
+        },
+        {
+          "start": {
+            "identity": 4,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "type": "mixproof"
+            },
+            "elementId": "4"
+          },
+          "relationship": {
+            "identity": 0,
+            "start": 4,
+            "end": 62,
+            "type": "TUBULAÇÃO",
+            "properties": {
+              "length": 0,
+              "type": "Wort 1"
+            },
+            "elementId": "0",
+            "startNodeElementId": "4",
+            "endNodeElementId": "62"
+          },
+          "end": {
+            "identity": 62,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "ARW1",
+              "type": "mixproof"
+            },
+            "elementId": "62"
+          }
+        },
+        {
+          "start": {
+            "identity": 62,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "ARW1",
+              "type": "mixproof"
+            },
+            "elementId": "62"
+          },
+          "relationship": {
+            "identity": 38,
+            "start": 63,
+            "end": 62,
+            "type": "TUBULAÇÃO",
+            "properties": {
+              "length": 0,
+              "type": "wort 1"
+            },
+            "elementId": "38",
+            "startNodeElementId": "63",
+            "endNodeElementId": "62"
+          },
+          "end": {
+            "identity": 63,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "ARW2",
+              "type": "mixproof"
+            },
+            "elementId": "63"
+          }
+        },
+        {
+          "start": {
+            "identity": 63,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "ARW2",
+              "type": "mixproof"
+            },
+            "elementId": "63"
+          },
+          "relationship": {
+            "identity": 37,
+            "start": 57,
+            "end": 63,
+            "type": "TUBULAÇÃO",
+            "properties": {
+              "length": 0,
+              "type": "wort 2 - future"
+            },
+            "elementId": "37",
+            "startNodeElementId": "57",
+            "endNodeElementId": "63"
+          },
+          "end": {
+            "identity": 57,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "ARWF2",
+              "type": "mixproof"
+            },
+            "elementId": "57"
+          }
+        },
+        {
+          "start": {
+            "identity": 57,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "ARWF2",
+              "type": "mixproof"
+            },
+            "elementId": "57"
+          },
+          "relationship": {
+            "identity": 36,
+            "start": 57,
+            "end": 58,
+            "type": "TUBULAÇÃO",
+            "properties": {
+              "length": 0,
+              "type": "wort 2 - future"
+            },
+            "elementId": "36",
+            "startNodeElementId": "57",
+            "endNodeElementId": "58"
+          },
+          "end": {
+            "identity": 58,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "ARWF3",
+              "type": "mixproof"
+            },
+            "elementId": "58"
+          }
+        },
+        {
+          "start": {
+            "identity": 58,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "ARWF3",
+              "type": "mixproof"
+            },
+            "elementId": "58"
+          },
+          "relationship": {
+            "identity": 59,
+            "start": 58,
+            "end": 59,
+            "type": "TUBULAÇÃO",
+            "properties": {
+              "length": 0,
+              "type": "wort 2 - future"
+            },
+            "elementId": "59",
+            "startNodeElementId": "58",
+            "endNodeElementId": "59"
+          },
+          "end": {
+            "identity": 59,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "ARWF4",
+              "type": "mixproof"
+            },
+            "elementId": "59"
+          }
+        },
+        {
+          "start": {
+            "identity": 59,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "ARWF4",
+              "type": "mixproof"
+            },
+            "elementId": "59"
+          },
+          "relationship": {
+            "identity": 82,
+            "start": 59,
+            "end": 60,
+            "type": "TUBULAÇÃO",
+            "properties": {
+              "length": 0,
+              "type": "wort 2 - future"
+            },
+            "elementId": "82",
+            "startNodeElementId": "59",
+            "endNodeElementId": "60"
+          },
+          "end": {
+            "identity": 60,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "ARWF5",
+              "type": "mixproof"
+            },
+            "elementId": "60"
+          }
+        },
+        {
+          "start": {
+            "identity": 60,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "ARWF5",
+              "type": "mixproof"
+            },
+            "elementId": "60"
+          },
+          "relationship": {
+            "identity": 105,
+            "start": 60,
+            "end": 61,
+            "type": "TUBULAÇÃO",
+            "properties": {
+              "length": 0,
+              "type": "wort 2 - future"
+            },
+            "elementId": "105",
+            "startNodeElementId": "60",
+            "endNodeElementId": "61"
+          },
+          "end": {
+            "identity": 61,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "ARWF6",
+              "type": "mixproof"
+            },
+            "elementId": "61"
+          }
+        },
+        {
+          "start": {
+            "identity": 61,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "ARWF6",
+              "type": "mixproof"
+            },
+            "elementId": "61"
+          },
+          "relationship": {
+            "identity": 128,
+            "start": 61,
+            "end": 92,
+            "type": "TUBULAÇÃO",
+            "properties": {
+              "length": 0,
+              "type": "wort 2 - future"
+            },
+            "elementId": "128",
+            "startNodeElementId": "61",
+            "endNodeElementId": "92"
+          },
+          "end": {
+            "identity": 92,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "BRWF1",
+              "type": "mixproof"
+            },
+            "elementId": "92"
+          }
+        },
+        {
+          "start": {
+            "identity": 92,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "BRWF1",
+              "type": "mixproof"
+            },
+            "elementId": "92"
+          },
+          "relationship": {
+            "identity": 162,
+            "start": 92,
+            "end": 6,
+            "type": "TUBULAÇÃO",
+            "properties": {
+              "length": 0,
+              "type": "wort 2 - future"
+            },
+            "elementId": "162",
+            "startNodeElementId": "92",
+            "endNodeElementId": "6"
+          },
+          "end": {
+            "identity": 6,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "BRT1",
+              "type": "mixproof"
+            },
+            "elementId": "6"
+          }
+        },
+        {
+          "start": {
+            "identity": 6,
+            "labels": [
+              "VALVULA"
+            ],
+            "properties": {
+              "name": "BRT1",
+              "type": "mixproof"
+            },
+            "elementId": "6"
+          },
+          "relationship": {
+            "identity": 253,
+            "start": 32,
+            "end": 6,
+            "type": "TUBULAÇÃO",
+            "properties": {
+
+            },
+            "elementId": "253",
+            "startNodeElementId": "32",
+            "endNodeElementId": "6"
+          },
+          "end": {
+            "identity": 32,
+            "labels": [
+              "TANQUE"
+            ],
+            "properties": {
+              "volume": 0,
+              "name": "BT1"
+            },
+            "elementId": "32"
+          }
+        }
+      ],
+      "length": 11.0
+    }
+  }
+]
